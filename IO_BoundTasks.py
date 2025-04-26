@@ -4,7 +4,11 @@ import requests
 import time
 import matplotlib.pyplot as plt
 
-picture_url = "https://disneyparksblog.com/app/uploads/2025/03/DX_SXSW-2025_Falcon-scaled.jpg"
+picture_url = ("https://www.google.com/url?sa=i&url=https%3A%2F%2Fdisneyparksblog.com%2F"
+               "disney-experiences%2Fsxsw-2025-new-missions-smugglers-run-mandalorian%2F&"
+               "psig=AOvVaw1JAD6t0Vf-JmxEs4q3k-46&ust=1745740072628000&source=images&cd=v"
+               "fe&opi=89978449&ved=0CBEQjRxqFwoTCPDmn9ua9YwDFQAAAAAdAAAAABAE")
+
 def request_url():
     request = requests.get(picture_url)
 
